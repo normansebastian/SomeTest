@@ -8,5 +8,11 @@ namespace SomeTest
 {
     class Try
     {
+        public int MyProperty { get; set; }
+
+        public Try()
+        {
+
+        }
     }
 }

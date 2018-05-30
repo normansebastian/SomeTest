@@ -10,7 +10,10 @@ namespace SomeTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("add text");
+            Console.WriteLine("What's your name?");
+            string line = Console.ReadLine();
+            Console.WriteLine("Your name is {0}", line);
+            Console.ReadKey();
         }
     }
 }
