@@ -14,7 +14,8 @@ namespace SomeTest
 
         public AnotherClass()
         {
-            
+            Console.WriteLine("git testing");
+
         }
     }
 }
