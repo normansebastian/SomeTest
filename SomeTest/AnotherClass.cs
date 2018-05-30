@@ -12,9 +12,11 @@ namespace SomeTest
 
         public string AnotherString { get; set; }
 
-        public AnotherClass()
+        public AnotherClass(int anotherInt, string anotherString)
         {
-            
+            AnotherInt = anotherInt;
+            AnotherString = anotherString;
         }
+
     }
 }
